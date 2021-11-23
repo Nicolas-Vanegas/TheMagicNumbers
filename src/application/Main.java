@@ -22,7 +22,7 @@ public class Main extends Application {
 			Parent root = FXMLLoader.load(getClass().getResource("MainScene.fxml"));
 			Scene scene = new Scene(root);
 			
-			primaryStage.setTitle("Aprendiendo a contar");
+			primaryStage.setTitle("The Magic Numbers");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 			
